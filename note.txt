@@ -1,0 +1,7 @@
+mongodb+srv://adisonsalauddin:abcd1234@loginserver.e81kl.mongodb.net/?retryWrites=true&w=majority&appName=Loginserver
+
+
+LnFxf1IzfgnX3asv
+adisonsalauddin
+
+mongodb+srv://adisonsalauddin:LnFxf1IzfgnX3asv@cluster0.uzgey.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
