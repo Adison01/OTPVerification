@@ -7,7 +7,7 @@ const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
     user: "adisonstocks@gmail.com",
-    password: "Salauddin01",
+    password: "uhsmlefhazpwumej",
   },
 });
 
@@ -111,15 +111,14 @@ exports.login = async (req, res) => {
   }
 };
 
-exports.logout = (req, res)=>{
-    req.session.destroy((err)=>{
-        if(err) return res.status(500).json({message: 'Error Logging out'});
+exports.logout = (req, res) => {
+  req.session.destroy((err) => {
+    if (err) return res.status(500).json({ message: "Error Logging out" });
 
-        res.json({message: "Logged out successfully"})
+    res.json({ message: "Logged out successfully" });
+  });
+};
 
-    })
-}
-
-exports.dashboard = async (req, res)=>{
-    res.json({message: `Welcome to the dashboard, ${req.session.user.name}`})
-}
+exports.dashboard = async (req, res) => {
+  res.json({ message: `Welcome to the dashboard, ${req.session.user.name}` });
+};
