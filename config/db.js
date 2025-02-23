@@ -1,7 +1,9 @@
 const mongoose = require("mongoose");
 const User = require("../models/User");
 
-const MONGO_URI = "mongodb+srv://adisonsalauddin:LnFxf1IzfgnX3asv@cluster0.uzgey.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+// const MONGO_URI = "mongodb+srv://adisonsalauddin:LnFxf1IzfgnX3asv@cluster0.uzgey.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const MONGO_URI = "mongodb+srv://adisonsalauddin:wYWwTY8wLebWdHE2@cluster0.nlpnv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+
 
 const connectDB = async () => {
   try {

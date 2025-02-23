@@ -4,10 +4,13 @@ const crypto = require("crypto");
 const { error } = require("console");
 
 const transporter = nodemailer.createTransport({
+  secure: true,
+  host: 'smtp.gmail.com',
+  post: 465,
   service: "gmail",
   auth: {
     user: "adisonstocks@gmail.com",
-    password: "uhsmlefhazpwumej",
+    password: "wktngveyxekompna",
   },
 });
 
